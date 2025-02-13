@@ -4,6 +4,7 @@ body {
   background-color: #fff;
 }
 
+/* reset */
 ul {
   list-style-type: none;
   margin: 0;
@@ -93,7 +94,7 @@ p {
 .contacts-list {
   display: flex;
   align-items: center;
-  gap: 40pz;
+  gap: 40px;
 }
 
 /* .contacts-item {
@@ -131,6 +132,8 @@ p {
 
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -140,6 +143,8 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .hero-btn {
@@ -151,6 +156,10 @@ p {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-btn:hover,
