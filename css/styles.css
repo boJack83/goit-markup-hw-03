@@ -125,6 +125,7 @@ img {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .text-footer {
@@ -132,6 +133,7 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .hero-section {
@@ -164,8 +166,8 @@ img {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  border-radius: 4px;
   border: none;
-  inherit;
 }
 
 .hero-btn:hover,
@@ -205,4 +207,9 @@ img {
 
 .team-item {
   background-color: #ffffff;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
