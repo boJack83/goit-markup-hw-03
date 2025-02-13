@@ -207,6 +207,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px
 }
 
 .section-item-title {
@@ -216,6 +217,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+
 }
 
 .section-item-text {
@@ -224,6 +226,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+}
+
+.section-item-title-team {
+  text-align: center;
+}
+
+.section-item-text-team {
+  text-align: center;
 }
 
 .section-team {
@@ -236,9 +247,20 @@ img {
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.name-position {
+  padding: 32px 0;
 }
